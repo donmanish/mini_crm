@@ -9,7 +9,7 @@ AI Mini CRM is a full-stack CRM application built with **React**, **FastAPI**, *
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/ai-mini-crm.git
+git clone https://github.com/donmanish/mini_crm.gitai-mini-crm.git
 cd ai-mini-crm
 ```
 
