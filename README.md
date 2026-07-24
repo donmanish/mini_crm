@@ -13,6 +13,26 @@ git clone https://github.com/donmanish/mini_crm.gitai-mini-crm.git
 cd ai-mini-crm
 ```
 
+## 2. Import the Database
+
+The project includes a pre-built SQLite database script located at:
+
+```
+backend/crm.db.sql
+```
+
+Import it into a SQLite database:
+
+```bash
+cd backend
+
+sqlite3 crm.db < crm.db.sql
+```
+
+This will create the `crm.db` database used by the backend.
+
+---
+
 ## Configure Environment Variables
 
 Create a `.env` file inside the `backend` directory.
