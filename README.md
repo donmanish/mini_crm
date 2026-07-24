@@ -1,4 +1,3 @@
-````md id="h4ks9m"
 # AI Mini CRM
 
 AI Mini CRM is a full-stack CRM application built with **React**, **FastAPI**, **SQLite**, and **Google Gemini AI**. It allows users to manage customers, add notes, view timelines, and generate AI-powered customer insights.
@@ -147,4 +146,4 @@ Expected AI response:
 - SQLite is intended for development, not production.
 - AI insights require a valid Gemini API key unless the mock service is used.
 - AI-generated responses may vary depending on the prompt and model.
-````
+
