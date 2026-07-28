@@ -11,6 +11,13 @@ from app.controller.ai import router as ai_router
 
 
 from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+
+load_dotenv()
+
+import os
+
+cors_origins = os.getenv("CORS_ORIGINS", "").split(",")
 
 app = FastAPI()
 
@@ -18,9 +25,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
 
-    allow_origins=[
-        "http://localhost:5173"
-    ],
+    allow_origins=cors_origins,
 
     allow_credentials=True,
 
